@@ -161,7 +161,7 @@ function addChat(){
                             {
                               list.map((e)=>{
                                 return(
-                              <div className={style.empo} style={{
+                              <div key={e} className={style.empo} style={{
                                 display:"flex",
                                 gap:10,
                                 alignItems:"center",
