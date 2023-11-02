@@ -5,36 +5,38 @@
   padding: 5px;
 }
 
-.side {
+.sideBar {
   width: 50px;
-  height: 500px;
+  height: 100%;
   background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   padding: 10px;
+  border-radius: 10px;
 }
 
 .bodymain {
   display: flex;
   justify-content: space-between;
-  background-color: black;
   flex: 1;
 }
 
-.body {
-  width: 440px;
-  height: 500px;
+.bodyLeft {
+  width: 200px;
+  height: 100%;
   border-radius: 1px;
   display: flex;
   flex-direction: column;
   background-color: rgb(65, 56, 56);
+  margin-top: 5px;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .body2 {
-  width: 800px;
-  height: 480px;
-  /* overflow: hidden; */
+  width: 100%;
   overflow-y: auto;
 }
 
@@ -46,7 +48,8 @@
 .chat {
   display: flex;
   justify-content: space-between;
-  font-size: 30px;
+  font-size: 20px;
+  color: white;
 }
 
 .input {
@@ -57,7 +60,7 @@
 .empo {
   width: 100%;
   height: 50px;
-  background-color: rgba(0,0,0,0.25);
+  background-color: rgba(0, 0, 0, 0.25);
   border-radius: 5px;
 }
 
@@ -67,9 +70,8 @@
   gap: 10px;
   justify-content: flex-start;
   flex: 1;
-  padding:10px;
-  overflow-y: auto;
- 
+  padding: 10px;
+  overflow-y: hidden;
 }
 
 .new {
@@ -79,30 +81,34 @@
 .mess {
   background-color: gray;
   color: white;
-  padding:10px;
+  padding: 10px;
+  margin-left: 5px;
 }
 
 .mess2 {
   background-color: greenyellow;
   float: right;
-  padding:10px;
+  padding: 10px;
 }
 
-.top{
-  border-radius: 50%;
+.bodyRight .topmain {
+  background-color: #808080;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   display: flex;
-  gap:10px;
-  
+  gap: 10px;
 }
 
-.topmain{
-  
-  background-color:#808080;
-  
-
-}
-
-.mess{
-  
+.mess {
   font-size: 20px;
+}
+
+.put {
+  margin: auto;
+}
+
+.imp {
+  width: 100vw;
+  height: 100%;
+  background-color: white;
 }
